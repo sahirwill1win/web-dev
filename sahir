@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Club</title>
+</head>
+
+<body>
+
+    <header style="background-color: rgb(229, 81, 110); border: 3px solid black;">
+        <nav>
+    <h1 style="color:rgb(38, 3, 72);font-family:Verdana, Geneva, Tahoma, sans-serif; font-size:20px;text-decoration: underline;">
+          Mount Caramel Book Club</h1>
+    <img src="./img.jpg" alt="books" width="250" height="200">
+    <ul style="color:brown; font-family: Georgia, 'Times New Roman', Times, serif;font-size:12px">
+        <li><a href="Bookclub.html">Home</a></li>
+        <li><a href="https://www.codingal.com/">Visit codingal</a></li>
+        <li><a href="#">Reading Groups</a></li>
+        <li><a href="#">Contact us</a></li>
+    </ul>
+    </nav>
+</header>
+
+
+<div id="heading" style="background-color: burlywood;border: 2px solid black;">
+    <h2 style="background-color: br own; color:antiquewhite">Welcome to Mount caramel book club</h2>
+    <p>The Mount caramel book club is an online community for the book readers of mount caramel schhol.</p>
+    </div>
+
+    <div id="teachers">
+    <h2>Meet our teachers</h2>
+    <h3><mark>Ms.Emma</mark></h3>
+    <img src="./teacher1.jpg" width="100" height="100">
+    <p>She teaches elementary school kids</p>
+    <h3>Ms.Caroline</h3>
+     <img src="./teacher2.jpg" width="100" height="100">
+    <p>She teaches secondary and high kids</p>
+<audio controls autoplay>
+    <source src="">
+</audio>
+</div>
+
+<div id="book-review">
+    <h2>Book Review</h2>
+    <h3>Alice in wonderland</h3>
+    <p><b>Sara:</b> This is a great book. A must read for everyone.</p>
+ <h3>Charlie and the chocolate factory</h3>
+    <p><strong>David:</strong> A very fun and interesting book.</p>
+</div>
+
+
+<div id="related-videos">
+<h2>Related Videos</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Dy61Ywm0vQs?si=fAboAPJvbv9AE3sA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+allowfullscreen></iframe>
+</div>
+
+<div id="opening-times">
+<h2>Opening Times</h2>
+<table border="2">
+    <tr>
+        <th>Day</th>
+        <th>Opening time</th>
+        <th>Closing time</th>
+    </tr>
+
+    <tr>
+        <td>Sunday</td>
+        <td>9:00am</td>
+        <td>5:00pm</td>
+    </tr>
+    <tr>
+        <td>Monday</td>
+        <td>10:00am</td>
+        <td>3:00pm</td>
+    </tr>
+    <tr>
+        <td>Wednesday</td>
+        <td>10:00am</td>
+        <td>3:00pm</td>
+    </tr>
+
+
+</table>
+    
+</div>
+<footer>
+<!---Footer(contact information)-->
+<h2>Contact us: Ms. Caroline</h2>
+<p>Phone no: +2345688</p>
+<address>36th Main, Palm Street</address>
+</div>
+
+</body>
+</html>
