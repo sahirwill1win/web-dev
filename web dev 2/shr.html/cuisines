@@ -1,61 +1,125 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
     <title>The Cuisines</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #fff8ed;
+            color: #333333;
+        }
+
+        header {
+            text-align: center;
+            background-color: #ff7043;
+            color: white;
+            padding: 20px;
+            border: 2px solid #d84315;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #ffe0b2;
+            padding: 15px;
+            margin: 15px 0;
+            border: 1px solid #ff9800;
+        }
+
+        nav a {
+            color: #8d3b14;
+            margin: 12px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            background-color: white;
+            margin: 15px 0;
+            padding: 15px;
+            border: 2px solid #ffcc80;
+        }
+
+        h2 {
+            color: #e65100;
+        }
+
+        .popular-cuisines {
+            display: flex;
+            gap: 15px;
+        }
+
+        .cuisine {
+            flex: 1;
+            padding: 12px;
+            border: 2px solid #ffab91;
+            background-color: #fff3e0;
+        }
+
+        .cuisine h3 {
+            color: #bf360c;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #37474f;
+            color: white;
+            border: 2px solid #263238;
+        }
+    </style>
 </head>
+
 <body>
 
     <header>
         <h1>The Cuisines</h1>
-        <p>Discover delicious food from around the world!</p>
+        <p>Explore the World Through Food</p>
     </header>
 
-    <main>
-        <section>
-            <h2>Goal</h2>
-            <p>
-                To explore different cuisines and learn about
-                their unique flavors, ingredients, and traditions.
-            </p>
-        </section>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Cuisines</a>
+        <a href="#">Contact</a>
+    </nav>
 
-        <section>
-            <h2>Story</h2>
-            <p>
-                Every country has its own special food culture.
-                Italian cuisine is famous for pizza and pasta.
-                Japanese cuisine is known for sushi and ramen.
-                Bangladeshi cuisine offers delicious biryani,
-                rice, fish, and traditional dishes.
-                Food connects people and brings cultures together.
-            </p>
-        </section>
+    <section>
+        <h2>About Us</h2>
+        <p>We explore delicious foods and cuisines from around the world.</p>
+    </section>
 
-        <section>
-            <h2>Popular Cuisines</h2>
-            <ol>
-                <li>Bangladeshi Cuisine — Biryani and Hilsa Fish</li>
-                <li>Italian Cuisine — Pizza and Pasta</li>
-                <li>Japanese Cuisine — Sushi and Ramen</li>
-                <li>Chinese Cuisine — Noodles and Dumplings</li>
-                <li>Mexican Cuisine — Tacos and Burritos</li>
-                <li>Indian Cuisine — Curry and Dosa</li>
-            </ol>
-        </section>
+    <section>
+        <h2>Popular Cuisines</h2>
 
-        <section>
-            <h2>Why Food Matters</h2>
-            <p>
-                Food represents culture, history, creativity,
-                and the traditions of people around the world.
-            </p>
-        </section>
-    </main>
+        <div class="popular-cuisines">
+            <div class="cuisine">
+                <h3>Italian Cuisine</h3>
+                <p>Pizza, Pasta and Lasagna.</p>
+            </div>
+
+            <div class="cuisine">
+                <h3>Chinese Cuisine</h3>
+                <p>Noodles, Dumplings and Fried Rice.</p>
+            </div>
+
+            <div class="cuisine">
+                <h3>Bangladeshi Cuisine</h3>
+                <p>Biryani, Khichuri and Pitha.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Why Food Matters</h2>
+        <p>Food connects people, cultures and traditions.</p>
+    </section>
 
     <footer>
-        <p>The Cuisines | Explore. Taste. Enjoy.</p>
+        <p>@copyright 2026 - The Cuisines</p>
+        <p>Sahir's Web</p>
     </footer>
 
 </body>
