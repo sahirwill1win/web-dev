@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 20px;
             background-color: #fff8ed;
-            color: #333333;
+            color: #333;
         }
 
         header {
@@ -46,20 +46,35 @@
             color: #e65100;
         }
 
+        /* CSS Grid Layout */
+
         .popular-cuisines {
-            display: flex;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
             gap: 15px;
         }
 
         .cuisine {
-            flex: 1;
-            padding: 12px;
+            padding: 15px;
             border: 2px solid #ffab91;
             background-color: #fff3e0;
         }
 
         .cuisine h3 {
             color: #bf360c;
+        }
+
+        .food-gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .food {
+            background-color: #ffe0b2;
+            border: 2px solid #ff9800;
+            padding: 15px;
+            text-align: center;
         }
 
         footer {
@@ -83,6 +98,7 @@
         <a href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Cuisines</a>
+        <a href="#">Gallery</a>
         <a href="#">Contact</a>
     </nav>
 
@@ -95,6 +111,7 @@
         <h2>Popular Cuisines</h2>
 
         <div class="popular-cuisines">
+
             <div class="cuisine">
                 <h3>Italian Cuisine</h3>
                 <p>Pizza, Pasta and Lasagna.</p>
@@ -109,6 +126,35 @@
                 <h3>Bangladeshi Cuisine</h3>
                 <p>Biryani, Khichuri and Pitha.</p>
             </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Food Gallery</h2>
+
+        <div class="food-gallery">
+
+            <div class="food">
+                <h3>Pizza</h3>
+                <p>A delicious Italian dish.</p>
+            </div>
+
+            <div class="food">
+                <h3>Burger</h3>
+                <p>A popular fast food.</p>
+            </div>
+
+            <div class="food">
+                <h3>Biryani</h3>
+                <p>A famous rice dish.</p>
+            </div>
+
+            <div class="food">
+                <h3>Noodles</h3>
+                <p>A popular Asian food.</p>
+            </div>
+
         </div>
     </section>
 
@@ -118,7 +164,7 @@
     </section>
 
     <footer>
-        <p>@copyright 2026 - The Cuisines</p>
+        <p>Copyright 2026 - The Cuisines</p>
         <p>Sahir's Web</p>
     </footer>
 
